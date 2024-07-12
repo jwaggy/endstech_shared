@@ -9,7 +9,7 @@ SETTINGS = None
 
 
 class _Settings:
-    def __init__(self, settings_path: str, default_settings_dictionary: dict):
+    def __init__(self, settings_path: Path, default_settings_dictionary: dict):
         self.settings_path = settings_path
         self.default_settings_dictionary = default_settings_dictionary
 

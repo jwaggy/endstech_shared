@@ -3,18 +3,6 @@ import setuptools
 from endstech_shared import __version__
 
 
-def get_install_requirements():
-    requirements_list = []
-
-    with open("requirements.txt", "r", encoding="utf-8") as file:
-        lines = file.readlines()
-
-        for line in lines:
-            requirements_list.append(line.strip())
-
-    return requirements_list
-
-
 with open("README.md", "r", encoding="utf-8") as file_handle:
     long_description = file_handle.read()
 
