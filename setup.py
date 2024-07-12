@@ -39,7 +39,11 @@ setuptools.setup(
         "Programming Language :: Python :: 3.11",
         "Topic :: Software Development"
     ],
-    install_requires=get_install_requirements()
+    install_requires=[
+        "pyside6>=6.7.2",
+        "SQLAlchemy>=2.0.31",
+        "alembic>=1.13.2"
+    ]
 )
 
 
