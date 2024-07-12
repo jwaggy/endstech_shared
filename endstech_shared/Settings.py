@@ -72,7 +72,7 @@ class _Settings:
         return self.settings.fileName()
 
 
-def Settings(settings_path: str, default_settings_dictionary: dict):
+def Settings(settings_path: Path, default_settings_dictionary: dict):
     global SETTINGS
 
     if not SETTINGS:
