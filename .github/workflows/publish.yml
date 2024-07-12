@@ -3,7 +3,7 @@ name: Publish endstech_shared package
 on:
   push:
     paths:
-      - 'setup.py'
+      - 'endstech_shared/__init__.py'
 
 jobs:
   deploy:
