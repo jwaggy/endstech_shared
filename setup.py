@@ -30,7 +30,9 @@ setuptools.setup(
     install_requires=[
         "pyside6>=6.7.2",
         "SQLAlchemy>=2.0.31",
-        "alembic>=1.13.2"
+        "alembic>=1.13.2",
+        "python-dateutil>=2.9.0",
+        "pytz>=2024.1"
     ]
 )
 
